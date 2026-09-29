@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/YOUR_USERNAME"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
+  <a href="https://github.com/shekhawatjii003"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
   <a href="YOUR_LINKEDIN_URL"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
   <a href="mailto:YOUR_EMAIL"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
 </p>
@@ -79,7 +79,7 @@ flowchart TD
 
 **Design concerns I'm working through:** high traffic, concurrent bookings, database consistency, caching, event-driven communication, fault tolerance, and scalability.
 
-> Repository: [`train-booking-system`](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME)
+> Repository: [`train-booking-system`](https://github.com/shekhawatjii003/YOUR_REPO_NAME)
 
 ---
 
@@ -119,9 +119,9 @@ Java → Spring Boot → REST APIs → Spring Security + JWT → Microservices
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_USERNAME/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_USERNAME/output/github-contribution-grid-snake.svg" />
-    <img alt="Contribution snake animation" src="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_USERNAME/output/github-contribution-grid-snake.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/shekhawatjii003/shekhawatjii003/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/shekhawatjii003/shekhawatjii003/output/github-contribution-grid-snake.svg" />
+    <img alt="Contribution snake animation" src="https://raw.githubusercontent.com/shekhawatjii003/shekhawatjii003/output/github-contribution-grid-snake.svg" />
   </picture>
 </p>
 
