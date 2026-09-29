@@ -115,6 +115,14 @@ Java → Spring Boot → REST APIs → Spring Security + JWT → Microservices
 
 ---
 
+## Contribution Streak
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=shekhawatjii003&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=00D9FF&ring=00D9FF&fire=FF6B6B&currStreakLabel=00D9FF" alt="GitHub contribution streak" />
+</p>
+
+---
+
 ## Contribution Snake
 
 <p align="center">
