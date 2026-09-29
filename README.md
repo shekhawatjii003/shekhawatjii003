@@ -1,6 +1,4 @@
-# 👋 Hi, I'm Prem Singh Shekhawat
-
-### 💻 Backend Developer | Java | Spring Boot | Microservices | C++ | DSA
+# 👋 Hi, I'm Prem Singh
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=36BCF7&center=true&vCenter=true&width=750&lines=Backend+Developer;Java+%7C+Spring+Boot+%7C+Microservices;C%2B%2B+%7C+Data+Structures+%26+Algorithms;Building+Scalable+Backend+Systems;Always+Learning+%26+Building+%F0%9F%9A%80" alt="Typing SVG" />
