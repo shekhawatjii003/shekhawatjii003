@@ -1,277 +1,133 @@
-# 👋 Hi, I'm Prem Singh
+<h1 align="center">Prem Singh</h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=36BCF7&center=true&vCenter=true&width=750&lines=Backend+Developer;Java+%7C+Spring+Boot+%7C+Microservices;C%2B%2B+%7C+Data+Structures+%26+Algorithms;Building+Scalable+Backend+Systems;Always+Learning+%26+Building+%F0%9F%9A%80" alt="Typing SVG" />
+  <b>Backend Developer</b> · Java · Spring Boot · Microservices
+</p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1200&color=36BCF7&center=true&vCenter=true&width=600&lines=Building+scalable+backend+systems;Java+%7C+Spring+Boot+%7C+Microservices;Data+Structures+%26+Algorithms+in+C%2B%2B" alt="Typing SVG" />
+</p>
+
+<p align="center">
+  <a href="https://github.com/YOUR_USERNAME"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
+  <a href="YOUR_LINKEDIN_URL"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="mailto:YOUR_EMAIL"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
 </p>
 
 ---
 
-## 🧑‍💻 About Me
+## About Me
 
-I'm a developer focused on **Backend Development, Java, Spring Boot, Microservices, and Data Structures & Algorithms**.
+I'm a backend developer who enjoys understanding how real-world systems work under the hood: authentication, database design, API design, concurrency, and scalability. I build projects that mirror production problems and practice DSA regularly to sharpen my problem-solving.
 
-I enjoy building backend systems and understanding how real-world applications handle authentication, databases, APIs, concurrency, and scalability.
+**Currently**
 
-* 🔭 Currently building an **IRCTC-like Train Booking System**
-* ☕ Working with **Java & Spring Boot**
-* 🏗️ Exploring **Microservices Architecture**
-* 🔐 Learning **Spring Security & JWT Authentication**
-* 🗄️ Working with **MySQL, SQL, JPA & Hibernate**
-* 🧠 Practicing **Data Structures & Algorithms using C++**
-* ⚡ Exploring scalable systems and high-concurrency applications
-* 🚀 Continuously improving my software engineering skills
+- Building a **Train Booking System** inspired by IRCTC, using a microservices architecture
+- Deepening my knowledge of **Spring Security and JWT authentication**
+- Practicing **Data Structures & Algorithms** in C++
+- Learning **Redis, Kafka, and Docker** for scalable, event-driven systems
+
+**Looking for:** Backend Software Engineering roles and open-source collaboration.
 
 ---
 
-# 🛠️ Tech Stack
+## Tech Stack
 
-### 💻 Languages
-
-<p>
-  <img src="https://skillicons.dev/icons?i=java,cpp,python,mysql" />
-</p>
-
-### ☕ Backend Development
-
-<p>
-  <img src="https://skillicons.dev/icons?i=spring,docker" />
-</p>
-
-`Spring Boot` • `Spring Security` • `Spring Data JPA` • `Hibernate` • `REST APIs` • `Microservices`
-
-### 🗄️ Database
+| Category | Technologies |
+|---|---|
+| **Languages** | Java, C++, Python, SQL |
+| **Backend** | Spring Boot, Spring Security, Spring Data JPA, Hibernate, REST APIs |
+| **Architecture** | Microservices, API Gateway, JWT-based auth |
+| **Database** | MySQL, Database Design, Normalization, Indexing |
+| **Tools** | Git, GitHub, IntelliJ IDEA, Docker, Linux |
 
 <p>
-  <img src="https://skillicons.dev/icons?i=mysql" />
+  <img src="https://skillicons.dev/icons?i=java,cpp,python,spring,mysql,docker,git,github,idea,linux" alt="Tech stack icons" />
 </p>
-
-`MySQL` • `SQL` • `Database Design` • `JPA/Hibernate`
-
-### 🔧 Tools
-
-<p>
-  <img src="https://skillicons.dev/icons?i=git,github,idea,docker,linux" />
-</p>
-
-`Git` • `GitHub` • `IntelliJ IDEA` • `Docker` • `Linux`
 
 ---
 
-# 🚆 Featured Project
+## Featured Project: Train Booking System
 
-## Train Booking System
+A backend platform modeled on IRCTC, built to explore how a large-scale railway reservation system can be designed with modern backend technologies.
 
-A backend platform inspired by **IRCTC**, designed to understand how a real-world railway booking system can be built using modern backend technologies.
+**Status:** In active development
 
-### 🔥 Current Development
+**Core modules**
 
-* 🚉 Station Management
-* 🚆 Train Management
-* 📅 Train Schedule Management
-* 🛤️ Train Stop & Route Management
-* 💺 Coach Management
-* 🎫 Booking System
-* 🔐 Authentication & Authorization
-* 🪪 JWT-based Security
-* ⚡ High-Concurrency Booking
-* 🚄 Tatkal Booking Architecture
-* 🏗️ Microservices Architecture
+- **Station, Train & Schedule Management:** stations, trains, routes, stops, and timetables
+- **Coach & Seat Management:** coach types and seat inventory
+- **Booking Service:** reservation flow with a focus on consistency under concurrent requests
+- **Authentication & Authorization:** Spring Security with JWT
+- **Tatkal Booking:** design for high-concurrency, time-critical booking windows
 
-### 🧰 Technologies
+**Tech:** `Java` `Spring Boot` `Spring Security` `JWT` `MySQL` `JPA/Hibernate` `REST` `Microservices` `Docker`
 
-`Java` `Spring Boot` `Spring Security` `JWT` `REST API` `MySQL` `JPA` `Hibernate` `Microservices` `Docker`
+### Target Architecture
 
-> 🚧 This project is actively under development.
-
----
-
-# 🧠 Data Structures & Algorithms
-
-I regularly practice **DSA and problem solving using C++**.
-
-### Topics I'm working on:
-
-```text
-Arrays
-Strings
-Two Pointers
-Sliding Window
-Binary Search
-Sorting
-Hashing
-Linked List
-Stack & Queue
-Trees
-Graphs
-Recursion
-Backtracking
-Greedy
-Dynamic Programming
+```mermaid
+flowchart TD
+    Client --> Gateway[API Gateway]
+    Gateway --> Auth[Auth Service]
+    Gateway --> Train[Train Service]
+    Gateway --> Booking[Booking Service]
+    Train --> Schedule[Schedule Service]
+    Train --> Station[Station Service]
+    Booking --> Payment[Payment Service]
+    Booking --> Notification[Notification Service]
 ```
 
-### 🎯 Focus
+**Design concerns I'm working through:** high traffic, concurrent bookings, database consistency, caching, event-driven communication, fault tolerance, and scalability.
 
-* Writing optimized solutions
-* Understanding Time & Space Complexity
-* Improving problem-solving skills
-* Preparing for technical interviews
+> Repository: [`train-booking-system`](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME)
 
 ---
 
-# 📊 SQL & Database
+## Problem Solving
 
-I'm also strengthening my SQL and database fundamentals.
+I practice DSA in **C++**, focusing on clean, optimized solutions and a clear understanding of time and space complexity.
 
-### Topics
-
-* SELECT & WHERE
-* GROUP BY
-* HAVING
-* JOINs
-* Subqueries
-* UNION
-* Aggregate Functions
-* Window Functions
-* Database Design
-* Normalization
-* Indexing
+**Topics:** Arrays · Strings · Two Pointers · Sliding Window · Binary Search · Sorting · Hashing · Linked Lists · Stacks & Queues · Trees · Graphs · Recursion · Backtracking · Greedy · Dynamic Programming
 
 ---
 
-# 🏗️ Backend Architecture I'm Exploring
+## Learning Roadmap
 
 ```text
-                    Client
-                      │
-                      ▼
-                API Gateway
-                      │
-          ┌───────────┴───────────┐
-          ▼                       ▼
-     Auth Service            Train Service
-          │                       │
-          │               ┌───────┴───────┐
-          │               ▼               ▼
-          │        Schedule Service   Station Service
-          │               │
-          └───────┬───────┘
-                  ▼
-            Booking Service
-                  │
-          ┌───────┴────────┐
-          ▼                ▼
-      Payment          Notification
+Java → Spring Boot → REST APIs → Spring Security + JWT → Microservices
+     → Redis → Kafka → Docker → CI/CD → Scalable Backend Systems
 ```
 
-I'm interested in understanding how distributed backend systems handle:
-
-* High traffic
-* Concurrent requests
-* Database consistency
-* Authentication & authorization
-* Caching
-* Event-driven communication
-* Fault tolerance
-* Scalability
+**SQL & databases:** JOINs, subqueries, aggregations, window functions, schema design, normalization, indexing.
 
 ---
 
-# 📚 Currently Learning
+## 2026 Goals
 
-```text
-Java
-  ↓
-Spring Boot
-  ↓
-REST APIs
-  ↓
-Spring Security + JWT
-  ↓
-Microservices
-  ↓
-Redis
-  ↓
-Kafka
-  ↓
-Docker
-  ↓
-Scalable Backend Systems
-```
+- [ ] Complete the Train Booking microservices project
+- [ ] Build production-style Spring Boot applications
+- [ ] Master Spring Security and JWT
+- [ ] Learn Redis and Apache Kafka
+- [ ] Improve Docker and CI/CD skills
+- [ ] Strengthen DSA and SQL
+- [ ] Make open-source contributions
+- [ ] Prepare for Backend Software Engineering roles
 
 ---
 
-# 🎯 2026 Goals
-
-* [ ] Build production-style Spring Boot applications
-* [ ] Complete the Train Booking Microservices project
-* [ ] Strengthen Spring Security & JWT
-* [ ] Improve Microservices knowledge
-* [ ] Learn Redis
-* [ ] Learn Apache Kafka
-* [ ] Improve Docker & CI/CD skills
-* [ ] Strengthen DSA
-* [ ] Improve SQL & Database Design
-* [ ] Contribute to Open Source
-* [ ] Prepare for Backend Software Engineering roles
-
----
-
-# 📈 GitHub Statistics
+## GitHub Stats
 
 <p align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
-
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub stats" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages" />
 </p>
 
 <p align="center">
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=tokyonight&hide_border=true" />
-
-</p>
-
----
-
-# 🔥 Contribution Streak
-
-<p align="center">
-
-<img src="https://streak-stats.demolab.com?user=YOUR_USERNAME&theme=tokyonight&hide_border=true" />
-
-</p>
-
----
-
-# 🐍 Contribution Graph
-
-<p align="center">
-
-<img src="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_USERNAME/output/github-contribution-grid-snake.svg" />
-
-</p>
-
----
-
-# 🤝 Let's Connect
-
-<p align="center">
-
-<a href="https://github.com/YOUR_USERNAME">
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
-
-<a href="YOUR_LINKEDIN_URL">
-<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
-
+  <img src="https://streak-stats.demolab.com?user=YOUR_USERNAME&theme=tokyonight&hide_border=true" alt="Contribution streak" />
 </p>
 
 ---
 
 <p align="center">
-
-### 🚀 Build. Learn. Solve. Repeat.
-
-⭐ Thanks for visiting my profile!
-
+  <i>Build. Learn. Solve. Repeat.</i>
 </p>
